@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Lorenc Kadriu</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav id="nav">
+  <a href="#" class="nav-logo">LORENC KADRIU</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Aftësitë</a></li>
+    <li><a href="#projects">Projektet</a></li>
+    <li><a href="#about">Rreth meje</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for work</div>
+    <h1 class="hero-title">
+      <span>Front-End</span>
+      <span class="highlight">Developer</span>
+      <span class="outline">&amp; Creator</span>
+    </h1>
+    <p class="hero-desc">
+      // Ndërtoj interface të bukura dhe funksionale<br>
+      // me HTML, CSS dhe JavaScript të pastër.<br>
+      // Fokus te detajet &amp; performanca.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-primary">Shiko projektet →</a>
+      <a href="#contact" class="btn btn-ghost">Kontakto</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="code-card">
+      <div class="code-dots">
+        <span class="dot-r"></span>
+        <span class="dot-y"></span>
+        <span class="dot-g"></span>
+      </div>
+      <div class="code-line"><span class="ln">01</span><span><span class="cm">// portfolio.js</span></span></div>
+      <div class="code-line"><span class="ln">02</span><span></span></div>
+      <div class="code-line"><span class="ln">03</span><span><span class="kw">const</span> <span class="fn">developer</span> <span class="op">=</span> {</span></div>
+      <div class="code-line"><span class="ln">04</span><span>&nbsp;&nbsp;<span class="str">name</span>: <span class="acc">'Lorenc Kadriu'</span>,</span></div>
+      <div class="code-line"><span class="ln">05</span><span>&nbsp;&nbsp;<span class="str">role</span>: <span class="acc">'Front-End Dev'</span>,</span></div>
+      <div class="code-line"><span class="ln">06</span><span>&nbsp;&nbsp;<span class="str">skills</span>: [</span></div>
+      <div class="code-line"><span class="ln">07</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="acc">'HTML'</span>, <span class="acc">'CSS'</span>, <span class="acc">'JS'</span>, <span class="acc">'React'</span></span></div>
+      <div class="code-line"><span class="ln">08</span><span>&nbsp;&nbsp;],</span></div>
+      <div class="code-line"><span class="ln">09</span><span>&nbsp;&nbsp;<span class="str">available</span>: <span class="kw">true</span>,</span></div>
+      <div class="code-line"><span class="ln">10</span><span>};</span></div>
+      <div class="code-line"><span class="ln">11</span><span></span></div>
+      <div class="code-line"><span class="ln">12</span><span><span class="fn">console</span>.<span class="fn">log</span>(<span class="acc">'Let\'s build!'</span>)<span class="cursor-blink"></span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="section-label">Aftësitë</div>
+  <h2 class="section-title">Çfarë di të bëj</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-icon">🏗️</div>
+      <div class="skill-name">HTML5</div>
+      <div class="skill-desc">Struktura semantike, accessibility, SEO-friendly markup, Forms, Canvas, Web Components.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" style="--w:90%"></div></div>
+      <div class="skill-level">90% · Advanced</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🎨</div>
+      <div class="skill-name">CSS3</div>
+      <div class="skill-desc">Flexbox, Grid, Animations, Transitions, Custom Properties, Media Queries, Pseudo-elements.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" style="--w:85%"></div></div>
+      <div class="skill-level">85% · Advanced</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">⚡</div>
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-desc">ES6+, DOM API, Fetch, Async/Await, Event Handling, Local Storage, JSON manipulation.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" style="--w:78%"></div></div>
+      <div class="skill-level">78% · Intermediate</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="section-label">Projektet</div>
+  <h2 class="section-title">Punët e mia</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div>
+        <div class="project-tags">
+          <span class="tag active">HTML</span>
+          <span class="tag active">CSS</span>
+          <span class="tag active">JavaScript</span>
+          <span class="tag">Featured</span>
+        </div>
+        <h3 class="project-title">Weather App</h3>
+        <p class="project-desc">Aplikacion i motit me Fetch API që merr të dhëna real-time nga OpenWeatherMap. Responsive design me animacione CSS dhe search functionality.</p>
+        <a href="#" class="project-link">Shiko projektin →</a>
+      </div>
+      <div class="project-visual">🌤️</div>
+    </div>
+    <div class="project-card">
+      <div class="project-tags">
+        <span class="tag active">HTML</span>
+        <span class="tag active">CSS</span>
+        <span class="tag active">JS</span>
+      </div>
+      <h3 class="project-title">Todo List App</h3>
+      <p class="project-desc">Task manager me Local Storage, filtrim, drag-and-drop dhe dark/light mode toggle.</p>
+      <a href="#" class="project-link">Shiko projektin →</a>
+    </div>
+    <div class="project-card">
+      <div class="project-tags">
+        <span class="tag active">HTML</span>
+        <span class="tag active">CSS</span>
+      </div>
+      <h3 class="project-title">Restaurant Landing Page</h3>
+      <p class="project-desc">Landing page me animacione smooth scroll, galeri imazhesh dhe menu interactive. Fully responsive.</p>
+      <a href="#" class="project-link">Shiko projektin →</a>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text">
+      <div class="section-label">Rreth meje</div>
+      <h2 class="section-title">Developer me pasion për detajet</h2>
+      <p>Jam front-end developer me fokus te <span class="em">krijimi i interface-ve të bukura dhe funksionale</span>. Çdo projekt e trajtoj si mundësi për të mësuar diçka të re.</p>
+      <p>Besoj që <span class="em">kodi i pastër, performanca</span> dhe user experience janë po aq të rëndësishme sa dizajni vizual. Aktualisht duke eksploruar JavaScript të avancuar dhe frameworks moderne.</p>
+      <p>Kur nuk jam duke koduar, jam duke eksploruar dizajne të reja, duke ndjekur trendet e web development dhe duke kontribuar në projekte open source.</p>
+      <div style="margin-top:2rem">
+        <a href="#contact" class="btn btn-primary">Punojmë bashkë →</a>
+      </div>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-num">6+</span>
+        <span class="stat-label">Projekte të Kompletuar</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Core Skills</span>
+      </div>
+      <div class="stat-card" style="grid-column: span 2;">
+        <span class="stat-num">∞</span>
+        <span class="stat-label">Pasion për Code</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label">Kontakt</div>
+    <h2 class="section-title">Të punojmë bashkë?</h2>
+    <p>Jam i disponueshëm për projekte freelance, bashkëpunime dhe mundësi pune. Më kontakto dhe le të ndërtojmë diçka të mrekullueshme.</p>
+    <div class="contact-links">
+      <a href="mailto:lorenckadriu1@gmail.com" class="btn btn-primary">lorenckadriu1@gmail.com</a>
+      <a href="tel:044960113" class="btn btn-ghost">044-960-113</a>
+      <a class="btn btn-ghost">📍 Fushë Kosovë</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 <span class="accent">Lorenc Kadriu</span> — Front-End Developer</p>
+  <p>Ndërtuar me <span class="accent">♥</span> duke përdorur HTML, CSS &amp; JS</p>
+</footer>
+
+<script src="index.js">
+
+
+
+</script>
+</body>
+</html>
