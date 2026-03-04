@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Hegarty&family=Lilita+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CALCULATOR</h1>
+        <div class="calc-container">
+            <input type="text" placeholder="0" id="inputi">
+            <div class="calc-buttons">
+                <button onclick="percent()" class="operator">%</button>
+                <button onclick="clearDisplay()" class="operator">AC</button>
+                <button onclick="sqr()" class="operator">SQR</button>
+                <button onclick="appendValue('/')" class="operator">/</button>
+                <button onclick="appendValue('7')" class="numri">7</button>
+                <button onclick="appendValue('8')" class="numri">8</button>
+                <button onclick="appendValue('9')" class="numri">9</button>
+                <button onclick="appendValue('*')" class="operator">*</button>
+                <button onclick="appendValue('4')" class="numri">4</button>
+                <button onclick="appendValue('5')" class="numri">5</button>
+                <button onclick="appendValue('6')" class="numri">6</button>
+                <button onclick="appendValue('-')" class="operator">-</button>
+                <button onclick="appendValue('1')" class="numri">1</button>
+                <button onclick="appendValue('2')" class="numri">2</button> 
+                <button onclick="appendValue('3')" class="numri">3</button>
+                <button onclick="appendValue('+')" class="operator">+</button>
+                <button onclick="appendValue('0')" class="numri">0</button>
+                <button onclick="deleteLast()" class="operator">C</button>
+                <button onclick="appendValue('.')" class="dcm">.</button>
+                <button onclick="calculate()" class="operator">=</button>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>

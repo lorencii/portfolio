@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    height: auto;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.todoja {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.todoja h2 {
+    text-align: center;
+    color: #333;
+}
+
+.inputi {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.inputi:focus {
+    border-color: rgb(20, 129, 51);
+    box-shadow: 0 0 5px rgb(20, 129, 51);
+}
+
+.btn1 {
+    padding: 10px;
+    background-color: rgb(20, 129, 51);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    color: rgb(20, 129, 51);
+    background-color: white;
+    border: rgb(20, 129, 51),1px,solid;
+    
+}
+
+.taskat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#p-delete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .inputi, .btn1 {
+        font-size: 14px;
+    }
+
+    #p-delete {
+        font-size: 14px;
+    }
+}
